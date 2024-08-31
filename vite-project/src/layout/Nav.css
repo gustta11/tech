@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-Pesquisa input{
+    width: 25rem;
+    height: 2rem;
+    border-radius: 5rem;
+    border: none;
+}
+
+.opcoes-navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.barra-Pesquisa{
+    margin-top: 2rem;
+}
+
+.opcoes-navegacao span{
+    margin: 0 2rem;
+    margin-top: 2rem;
+}
+

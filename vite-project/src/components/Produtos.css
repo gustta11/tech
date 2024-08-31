@@ -1,0 +1,47 @@
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 600px;
+    
+
+}
+
+section div{
+    width: 185px;
+    height: 185px;
+    background-color: #F7F8F8;
+    margin: 40px
+}
+
+p{
+    padding: 0% 10%;
+}
+
+
+
+.note{
+    width: 205px;
+    height: 103px;
+}
+
+.produtos__oferta{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+
+.produto_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.produtos__normal{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
