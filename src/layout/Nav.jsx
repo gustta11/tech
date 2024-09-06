@@ -1,5 +1,5 @@
 import './Nav.css'
-
+import {Link} from 'react-router-dom'
 
 
 const Nav = () =>{
@@ -13,11 +13,11 @@ const Nav = () =>{
                     <input type="text" />
                 </div>
                 <div className='opcoes-navegacao'>
-                    <span>HOME</span>
-                    <span>OFERTAS</span>
-                    <span>MAIS VENDIDOS </span>
-                    <span>LIVROS </span>
-                    <span>COMPUTADORES</span>
+                    <Link to = '/'><span>HOME</span></Link>
+                    <Link to = '/Ofertas'><span>OFERTAS</span></Link>
+                    <Link to = '/MaisVendidos' ><span>MAIS VENDIDOS </span></Link>
+                    <Link to = '/Livros'><span>LIVROS </span></Link>
+                    <Link to = '/Computadores' ><span>COMPUTADORES</span></Link>
                 </div>
             </div>
             <div className='profile-compras'>

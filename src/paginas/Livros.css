@@ -1,0 +1,40 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 600px;
+
+}
+
+
+
+.card_livros{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_livros_imagem{
+    background-color: #F7F8F8;
+    width: 185px;
+    height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_livros_preco {
+
+    width: 100%;
+    margin: 5% 20%;
+}
+
+
+.card_computadores_adicionaraocarrinho{
+    background-color: #F7CA00;
+    padding: 1.8%;
+    border-radius: 5px;
+    text-align: center;
+}
