@@ -4,10 +4,10 @@ import Nav from './layout/Nav'
 import Footer from './layout/Footer'
 import{ BrowserRouter as Router, Routes, Route,Link} from 'react-router-dom';
 import Produtos from './components/Produtos'
-import Ofertas from './paginas/Ofertas'
-import MaisVendidos from './paginas/MaisVendidos'
-import Livros from './paginas/Livros'
-import Computadores from './paginas/Computadores'
+import Ofertas from './pages/Ofertas'
+import MaisVendidos from './pages/MaisVendidos'
+import Livros from './pages/Livros'
+import Computadores from './pages/Computadores'
 
 function App() {
   
