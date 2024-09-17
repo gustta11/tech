@@ -18,7 +18,7 @@ const Livros = () =>{
                             <img src={livro1}  />
                         </div>
                         <div className='card_livros_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span> </p>
+                            <p>R$ 2.500  </p>
                             <p>Gabinete</p>
                             <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -29,7 +29,7 @@ const Livros = () =>{
                             <img src={livro2}  />
                         </div>
                         <div className='card_livros_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span> </p>
+                            <p>R$ 2.500  </p>
                             <p>Gabinete</p>
                             <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -41,7 +41,7 @@ const Livros = () =>{
                             <img src={livro3}  />
                         </div>
                         <div className='card_livros_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span> </p>
+                            <p>R$ 2.500  </p>
                             <p>Gabinete</p>
                             <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -53,7 +53,7 @@ const Livros = () =>{
                             <img src={livro4}  />
                         </div>
                         <div className='card_livros_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span> </p>
+                            <p>R$ 2.500  </p>
                             <p>Gabinete</p>
                             <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -64,7 +64,7 @@ const Livros = () =>{
                             <img src={livro5}  />
                         </div>
                         <div className='card_livros_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span> </p>
+                            <p>R$ 2.500  </p>
                             <p>Gabinete</p>
                             <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -76,7 +76,7 @@ const Livros = () =>{
                             <img src={livro6}  />
                         </div>
                         <div className='card_livros_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span> </p>
+                            <p>R$ 2.500  </p>
                             <p>Gabinete</p>
                             <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>

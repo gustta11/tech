@@ -19,7 +19,7 @@ const Produtos =() => {
                         </div>
                         <div className='card_produto_preco'>
                             <p className='preco_oferta'>20%off</p>
-                            <p>R$ 2.500 <span>De: R$4.000</span> </p>
+                            <p>R$ 2.500  </p>
                             <p>Gabinete</p>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const Produtos =() => {
                         </div>
                         <div className='card_produto_preco'>
                             <p className='preco_oferta'>20%off</p>
-                            <p>R$ 2.500 <span>De: R$4.000</span></p>
+                            <p>R$ 2.500 </p>
                             <p>Headset</p>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const Produtos =() => {
                         </div>
                         <div className='card_produto_preco'>
                             <p className='preco_oferta'>20%off</p>
-                            <p>R$ 2.500 <span>De: R$4.000</span></p>
+                            <p>R$ 2.500 </p>
                             <p>Memória</p>
                         </div>
                     </div>

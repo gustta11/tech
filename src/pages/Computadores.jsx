@@ -18,7 +18,7 @@ const Computadores = () =>{
                             <img src={computador1}  />
                         </div>
                         <div className='card_computadores_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span> </p>
+                            <p>R$ 2.500  </p>
                             <p>Gabinete</p>
                             <p  className='card_computadores_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -29,7 +29,7 @@ const Computadores = () =>{
                             <img src={computador2}  />
                         </div>
                         <div className='card_computadores_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span></p>
+                            <p>R$ 2.500 </p>
                             <p>Headset</p>
                             <p  className='card_computadores_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -40,7 +40,7 @@ const Computadores = () =>{
                             <img src={computador3}  />
                         </div>
                         <div className='card_computadores_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span></p>
+                            <p>R$ 2.500 </p>
                             <p>Memória</p>
                             <p  className='card_computadores_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -51,7 +51,7 @@ const Computadores = () =>{
                             <img src={computador4}  />
                         </div>
                         <div className='card_computadores_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span></p>
+                            <p>R$ 2.500 </p>
                             <p>Memória</p>
                             <p  className='card_computadores_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -62,7 +62,7 @@ const Computadores = () =>{
                             <img src={computador5}  />
                         </div>
                         <div className='card_computadores_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span></p>
+                            <p>R$ 2.500 </p>
                             <p>Memória</p>
                             <p  className='card_computadores_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
@@ -73,7 +73,7 @@ const Computadores = () =>{
                             <img src={computador6}  />
                         </div>
                         <div className='card_computadores_preco'>
-                            <p>R$ 2.500 <span>De: R$4.000</span></p>
+                            <p>R$ 2.500 </p>
                             <p>Memória</p>
                             <p  className='card_computadores_adicionaraocarrinho' >Adicionar ao carrinho</p>
                         </div>
