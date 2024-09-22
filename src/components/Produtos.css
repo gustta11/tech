@@ -1,8 +1,8 @@
 section{
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
-    height: 600px;
+    width: 50em;
+    height: 37.50em;
 
 }
 
@@ -14,12 +14,13 @@ section{
     padding: 0 5%;
     align-items: center;
     justify-content: center;
+    opacity: 90%;
 }
 
 .card_produto_imagem{
     background-color: #F7F8F8;
-    width: 185px;
-    height: 185px;
+    width: 11.56em;
+    height: 11.56em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,9 +37,9 @@ section{
     text-align: center;
     border-radius: 1em;
     color: white;
-    padding: 3%;
-    width: 60px;
-    height: 30px;
+    padding: 2%;
+    width: 4em;
+    height: 1.88em;
     
 }
 
@@ -47,7 +48,12 @@ section{
 .card_produto_adicionaraocarrinho{
     background-color: #F7CA00;
     padding: 1.8%;
-    border-radius: 5px;
+    border-radius: 0.31em;
     text-align: center;
+}
+
+.card_produto:hover{
+    opacity: 100%;
+    cursor: pointer;
 }
 

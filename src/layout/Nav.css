@@ -37,3 +37,14 @@ nav{
     color: white;
 }
 
+.profile-icon{
+    margin-right: 1.5em;
+    width: 2em;
+    height: 2em;
+}
+
+.cart-icon{
+   
+    width: 2em;
+    height: 2em;
+}

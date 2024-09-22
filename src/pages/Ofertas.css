@@ -1,8 +1,8 @@
 section{
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
-    height: 600px;
+    width: 50em;
+    height: 37.50em;
 
 }
 
@@ -18,8 +18,8 @@ section{
 
 .card_ofertas_imagem{
     background-color: #F7F8F8;
-    width: 185px;
-    height: 185px;
+    width: 11.56em;
+    height: 11.56em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +37,6 @@ section{
 .card_ofertas_adicionaraocarrinho{
     background-color: #F7CA00;
     padding: 1.8%;
-    border-radius: 5px;
+    border-radius: 0.31em;
     text-align: center;
 }

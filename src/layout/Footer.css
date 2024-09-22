@@ -1,28 +1,37 @@
+
 .div-footer{
     width: 100%;
     height: 100%;
+
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
 
 .footer-opcoes{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+     height: 100%;
+     align-items: center;
+     opacity: 90%;
+     
 }
-
 
 .footer-opcoes span{
-    justify-content: space-evenly;
-    margin: 0 6rem;
-    padding: 1rem;
     color: white;
 }
+
+.icone{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.footer-opcoes:hover{
+    opacity: 100%;
+}
+
+
+
+
 
 
 

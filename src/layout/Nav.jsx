@@ -1,13 +1,16 @@
 import './Nav.css'
 import {Link} from 'react-router-dom'
-import Logo from '../assets/Logo.png'
+import Logo from '../assets/logoNova.png'
+import { MdAddShoppingCart } from "react-icons/md";
+import { CgProfile } from "react-icons/cg";
+
 
 
 const Nav = () =>{
     return(
         <nav>
             <div className='logo'>
-             LOGO
+             <img src={Logo} alt="" />
             </div>
             <div className='navBar'>
                 <div className='barra-Pesquisa'>
@@ -22,8 +25,8 @@ const Nav = () =>{
                 </div>
             </div>
             <div className='profile-compras'>
-                profile
-                carrinho
+                <CgProfile className='profile-icon'/>
+                <MdAddShoppingCart className='cart-icon'/>
             </div>
         </nav>
     )
