@@ -15,7 +15,7 @@ const Produtos =() => {
 
                     <div className='card_produto'>
                         <div className='card_produto_imagem'>
-                            <img src={gabinete}  />
+                            <img src={gabinete}  alt='gabinete gamer'/>
                         </div>
                         <div className='card_produto_preco'>
                             <p className='preco_oferta'>20%off</p>
@@ -26,7 +26,7 @@ const Produtos =() => {
 
                     <div className='card_produto'>
                         <div className='card_produto_imagem'>
-                            <img src={headset}  />
+                            <img src={headset} alt='Headset gamer' />
                         </div>
                         <div className='card_produto_preco'>
                             <p className='preco_oferta'>20%off</p>
@@ -37,7 +37,7 @@ const Produtos =() => {
 
                     <div className='card_produto'>
                         <div  id='memoriaRam'  className='card_produto_imagem'>
-                            <img src={memoriaRam}  />
+                            <img src={memoriaRam}  alt='MemóriaRam '/>
                         </div>
                         <div className='card_produto_preco'>
                             <p className='preco_oferta'>20%off</p>
@@ -48,7 +48,7 @@ const Produtos =() => {
 
                     <div className='card_produto'>
                         <div className='card_produto_imagem'>
-                            <img src={teclado}  />
+                            <img src={teclado} alt='Teclado Gamer' />
                         </div>
                         <div className='card_produto_preco'>
                             <p>Teclado</p>
@@ -60,7 +60,7 @@ const Produtos =() => {
 
                     <div className='card_produto'>
                         <div className='card_produto_imagem'>
-                            <img src={ssd}  />
+                            <img src={ssd} alt='SSD' />
                         </div>
                         <div className='card_produto_preco'>
                             <p>Ssd</p>
@@ -72,7 +72,7 @@ const Produtos =() => {
 
                     <div className='card_produto'>
                         <div className='card_produto_imagem'>
-                            <img src={Notebook}  />
+                            <img src={Notebook}  alt='Notebook gamer'/>
                         </div>
                         <div className='card_produto_preco'>
                             <p>Notebook</p>
