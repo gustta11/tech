@@ -15,7 +15,7 @@ const Livros = () =>{
 
                     <div className='card_livros'>
                         <div className='card_livros_imagem'>
-                            <img src={livro1}  />
+                            <img src={livro1}  alt='Livro Html, csss e JavaScript'/>
                         </div>
                         <div className='card_livros_preco'>
                             <p>R$ 2.500  </p>
@@ -26,19 +26,7 @@ const Livros = () =>{
 
                     <div className='card_livros'>
                         <div className='card_livros_imagem'>
-                            <img src={livro2}  />
-                        </div>
-                        <div className='card_livros_preco'>
-                            <p>R$ 2.500  </p>
-                            <p>Gabinete</p>
-                            <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
-                        </div>
-                    </div>
-
-
-                    <div className='card_livros'>
-                        <div className='card_livros_imagem'>
-                            <img src={livro3}  />
+                            <img src={livro2} alt='Livro Html e css para iniciantes' />
                         </div>
                         <div className='card_livros_preco'>
                             <p>R$ 2.500  </p>
@@ -50,18 +38,7 @@ const Livros = () =>{
 
                     <div className='card_livros'>
                         <div className='card_livros_imagem'>
-                            <img src={livro4}  />
-                        </div>
-                        <div className='card_livros_preco'>
-                            <p>R$ 2.500  </p>
-                            <p>Gabinete</p>
-                            <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
-                        </div>
-                    </div>
-
-                    <div className='card_livros'>
-                        <div className='card_livros_imagem'>
-                            <img src={livro5}  />
+                            <img src={livro3} alt='Livro de Java com exercicios' />
                         </div>
                         <div className='card_livros_preco'>
                             <p>R$ 2.500  </p>
@@ -73,7 +50,30 @@ const Livros = () =>{
 
                     <div className='card_livros'>
                         <div className='card_livros_imagem'>
-                            <img src={livro6}  />
+                            <img src={livro4} alt='Livro de algoritmos' />
+                        </div>
+                        <div className='card_livros_preco'>
+                            <p>R$ 2.500  </p>
+                            <p>Gabinete</p>
+                            <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
+                        </div>
+                    </div>
+
+                    <div className='card_livros'>
+                        <div className='card_livros_imagem'>
+                            <img src={livro5}  alt='Livro de java'/>
+                        </div>
+                        <div className='card_livros_preco'>
+                            <p>R$ 2.500  </p>
+                            <p>Gabinete</p>
+                            <p  className='card_livros_adicionaraocarrinho' >Adicionar ao carrinho</p>
+                        </div>
+                    </div>
+
+
+                    <div className='card_livros'>
+                        <div className='card_livros_imagem'>
+                            <img src={livro6} alt='Livro sobre react' />
                         </div>
                         <div className='card_livros_preco'>
                             <p>R$ 2.500  </p>

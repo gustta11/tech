@@ -15,7 +15,7 @@ const Ofertas = () =>{
 
                     <div className='card_ofertas'>
                         <div className='card_ofertas_imagem'>
-                            <img src={gabinete}  />
+                            <img src={gabinete} alt='Gabinete gamer' />
                         </div>
                         <div className='card_ofertas_preco'>
                              <p className='preco_oferta'>20%off</p>
@@ -28,7 +28,7 @@ const Ofertas = () =>{
                  
                     <div className='card_ofertas'>
                         <div className='card_ofertas_imagem'>
-                            <img src={livro4}  />
+                            <img src={livro4} alt='Livro de algoritmos em JavaScript' />
                         </div>
                         <div className='card_ofertas_preco'>
                              <p className='preco_oferta'>20%off</p>
@@ -41,7 +41,7 @@ const Ofertas = () =>{
                    
                     <div className='card_ofertas'>
                         <div className='card_ofertas_imagem'>
-                            <img src={livro1}  />
+                            <img src={livro1}  alt='Livro de Html, css e JavaScript'/>
                         </div>
                         <div className='card_ofertas_preco'>
                              <p className='preco_oferta'>20%off</p>
@@ -54,7 +54,7 @@ const Ofertas = () =>{
                
                     <div className='card_ofertas'>
                         <div className='card_ofertas_imagem'>
-                            <img src={Notebook}  />
+                            <img src={Notebook} alt='Notebook Gamer' />
                         </div>
                         <div className='card_ofertas_preco'>
                              <p className='preco_oferta'>20%off</p>
@@ -66,7 +66,7 @@ const Ofertas = () =>{
 
                     <div className='card_ofertas'>
                         <div className='card_ofertas_imagem'>
-                            <img src={teclado}  />
+                            <img src={teclado} alt='Teclado Gamer' />
                         </div>
                         <div className='card_ofertas_preco'>
                              <p className='preco_oferta'>20%off</p>
@@ -79,7 +79,7 @@ const Ofertas = () =>{
 
                     <div className='card_ofertas'>
                         <div className='card_ofertas_imagem'>
-                            <img src={headset}  />
+                            <img src={headset} alt='Headset gamer' />
                         </div>
                         <div className='card_ofertas_preco'>
                              <p className='preco_oferta'>20%off</p>

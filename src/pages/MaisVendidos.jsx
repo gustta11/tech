@@ -15,7 +15,7 @@ const MaisVendidos = () =>{
 
                     <div className='card_MaisVendidos'>
                         <div className='card_MaisVendidos_imagem'>
-                            <img src={gabinete}  />
+                            <img src={gabinete} alt='Gabinete gamer' />
                         </div>
                         <div className='card_MaisVendidos_preco'>
                             <p>R$ 2.500  </p>
@@ -26,7 +26,7 @@ const MaisVendidos = () =>{
 
                     <div className='card_MaisVendidos'>
                         <div className='card_MaisVendidos_imagem'>
-                            <img src={ssd}  />
+                            <img src={ssd} alt='SSD' />
                         </div>
                         <div className='card_MaisVendidos_preco'>
                             <p>R$ 2.500  </p>
@@ -37,7 +37,7 @@ const MaisVendidos = () =>{
 
                     <div className='card_MaisVendidos'>
                         <div className='card_MaisVendidos_imagem'>
-                            <img src={livro1}  />
+                            <img src={livro1} alt='Livro de html, css e JavaScript' />
                         </div>
                         <div className='card_MaisVendidos_preco'>
                             <p>R$ 2.500  </p>
@@ -47,7 +47,7 @@ const MaisVendidos = () =>{
                     </div>
                     <div className='card_MaisVendidos'>
                         <div className='card_MaisVendidos_imagem'>
-                            <img src={memoriaRam}  />
+                            <img src={memoriaRam} alt='MemoriaRam' />
                         </div>
                         <div className='card_MaisVendidos_preco'>
                             <p>R$ 2.500 </p>
@@ -58,7 +58,7 @@ const MaisVendidos = () =>{
 
                     <div className='card_MaisVendidos'>
                         <div className='card_MaisVendidos_imagem'>
-                            <img src={livro2}  />
+                            <img src={livro2}  alt='Livro Html e css'/>
                         </div>
                         <div className='card_MaisVendidos_preco'>
                             <p>R$ 2.500  </p>
@@ -68,7 +68,7 @@ const MaisVendidos = () =>{
                     </div>
                     <div className='card_MaisVendidos'>
                         <div className='card_MaisVendidos_imagem'>
-                            <img src={headset}  />
+                            <img src={headset}  alt='Headset'/>
                         </div>
                         <div className='card_MaisVendidos_preco'>
                             <p>R$ 2.500  </p>

@@ -15,7 +15,7 @@ const Computadores = () =>{
 
                     <div className='card_computadores'>
                         <div className='card_computadores_imagem'>
-                            <img src={computador1}  />
+                            <img src={computador1} alt='Computador game'  />
                         </div>
                         <div className='card_computadores_preco'>
                             <p>R$ 2.500  </p>
@@ -26,7 +26,7 @@ const Computadores = () =>{
 
                     <div className='card_computadores'>
                         <div className='card_computadores_imagem'>
-                            <img src={computador2}  />
+                            <img src={computador2}  alt='Computador game' />
                         </div>
                         <div className='card_computadores_preco'>
                             <p>R$ 2.500 </p>
@@ -37,7 +37,7 @@ const Computadores = () =>{
 
                     <div className='card_produto'>
                         <div  id='memoriaRam'  className='card_computadores_imagem'>
-                            <img src={computador3}  />
+                            <img src={computador3}  alt='Computador game' />
                         </div>
                         <div className='card_computadores_preco'>
                             <p>R$ 2.500 </p>
@@ -48,7 +48,7 @@ const Computadores = () =>{
 
                     <div className='card_produto'>
                         <div  id='memoriaRam'  className='card_computadores_imagem'>
-                            <img src={computador4}  />
+                            <img src={computador4}   alt='Computador game' />
                         </div>
                         <div className='card_computadores_preco'>
                             <p>R$ 2.500 </p>
@@ -59,7 +59,7 @@ const Computadores = () =>{
 
                     <div className='card_produto'>
                         <div  id='memoriaRam'  className='card_computadores_imagem'>
-                            <img src={computador5}  />
+                            <img src={computador5}  alt='Computador game' />
                         </div>
                         <div className='card_computadores_preco'>
                             <p>R$ 2.500 </p>
@@ -70,7 +70,7 @@ const Computadores = () =>{
 
                     <div className='card_produto'>
                         <div  id='memoriaRam'  className='card_computadores_imagem'>
-                            <img src={computador6}  />
+                            <img src={computador6}  alt='Computador game' />
                         </div>
                         <div className='card_computadores_preco'>
                             <p>R$ 2.500 </p>
