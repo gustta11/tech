@@ -8,6 +8,7 @@ import Ofertas from './pages/Ofertas'
 import MaisVendidos from './pages/MaisVendidos'
 import Livros from './pages/Livros'
 import Computadores from './pages/Computadores'
+import User from './pages/User'
 
 function App() {
   
@@ -28,6 +29,7 @@ function App() {
               <Route path='/MaisVendidos'element={<MaisVendidos/>}/>
               <Route path='/Livros' element={<Livros/>}/>
               <Route path='/Computadores'element={<Computadores/>}/>
+              <Route path='/User'element={<User/>}/>
             </Routes>
         </main>
 

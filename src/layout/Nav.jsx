@@ -6,11 +6,12 @@ import { CgProfile } from "react-icons/cg";
 
 
 
+
 const Nav = () =>{
     return(
         <nav>
             <div className='logo'>
-             <img src={Logo} alt="" />
+             <Link to= '/'><span><img src={Logo} alt="" /></span></Link>
             </div>
             <div className='navBar'>
                 <div className='barra-Pesquisa'>
@@ -25,7 +26,7 @@ const Nav = () =>{
                 </div>
             </div>
             <div className='profile-compras'>
-                <CgProfile className='profile-icon'/>
+                <Link to = '/User'><span><CgProfile className='profile-icon'/></span> </Link>
                 <MdAddShoppingCart className='cart-icon'/>
             </div>
         </nav>
