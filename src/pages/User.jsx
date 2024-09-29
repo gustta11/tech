@@ -31,14 +31,41 @@ const User =()=>{
 
 
   
-   
+    const onSubmit = async (data)=>{
+      
+
+      try{
+          console.log('Dados a serem enviados:',data)
+          const response = await fetch('http://localhost:3000/acessoria', {
+              method:'POST',
+              headers:{
+                  'Content-Type':'application/json'
+              },
+              body:JSON.stringify(data)
+
+          })
+          
+          if(response.ok){
+            setMensagem('Dados cadastrados com sucesso!')
+            reset()
+          }else{
+            setMensagem('Erro ao cadastrar os dados')
+          }
+          const json = await response.json()
+          console.log(response)
+          console.log(json)
+      }catch (err){
+          console.error("Erro ao enviar", err)
+      }
+  }
+
 
     return (
       <div className="layout-geral-user">
         <div className="header-form-user">
     
         </div>
-        <form >
+        <form onSubmit={handleSubmit(onSubmit)}>
           <input
             type="text"
             placeholder="NOME"
